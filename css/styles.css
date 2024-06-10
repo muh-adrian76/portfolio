@@ -91,6 +91,7 @@ body.dark-theme {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -120,6 +121,12 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+[class^="ri-"]:hover,
+[class*=" ri-"]:hover {
+  transform: none;
+  box-shadow: none;
 }
 
 /* HEADER */
