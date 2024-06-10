@@ -123,8 +123,7 @@ img {
   height: auto;
 }
 
-[class^="ri-"]:hover,
-[class*=" ri-"]:hover {
+i:hover {
   transform: none;
   box-shadow: none;
 }
